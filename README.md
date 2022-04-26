@@ -1,1 +1,3 @@
-# simpleQ
+# SimpleQ
+
+Simple Queing System for FileMaker
