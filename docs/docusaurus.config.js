@@ -54,7 +54,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial"
+            label: "Documentation"
           },
 
           {
@@ -71,7 +71,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/docs/intro"
               }
             ]
