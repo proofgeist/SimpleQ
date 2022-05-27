@@ -5,7 +5,7 @@ title: Installation
 ---
 
 :::note
-If you want to use the Getting Started Guide, you will still have to install Simple on your Server.
+If you want to use the Getting Started Guide, you will still have to install SimpleQ on your Server.
 :::
 
 ## Intro
