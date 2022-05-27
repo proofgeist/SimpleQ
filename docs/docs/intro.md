@@ -15,7 +15,7 @@ In a tightly-coupled architecture, the **Registration** system would have a conn
 
 In a loosely-coupled architecture, the **Registration** system would not call the **Bookstore** and **Attendance** systems directly. Instead, it would publish the schedule change event as a Message. The other systems would be notified of the new Message available for processing, and are responsible for invoking whatever scripts are necessary.
 
-There are several benefits to a loosely-coupled architecture, including increased scalability, improved performance, and enabling asynchronous operation.
+There are several benefits to a loosely-coupled architecture, including increased scalability, improved performance, and asynchronous operation. Combined with [Otto's webhooks Receiver](https://www.ottofms.com/docs/developer-api/receiving-web-hooks), SimpleQ even makes it easier to integrate with external systems.
 
 ## Messages
 
@@ -30,7 +30,7 @@ Messages are the way that applications communicate with each other. Typically a 
 }
 ```
 
-The Publisher doesn't need to know anything about the other systems that will receive the Message, it is solely responsible for defining the message format that Subscribers will use to determine how to handle the message.
+The Publisher doesn't need to know anything about the other systems that will receive the Message, it is solely responsible for defining the message format that Subscribers will use to determine how to handle the message. If a new system is added that relies on the same data nothing need change on the Publisher's end, we simply add a new Subscriber.
 
 #### What is a Publisher?
 
