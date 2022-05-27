@@ -19,11 +19,11 @@ There are several benefits to a loosely-coupled architecture, including increase
 
 ## Messages
 
-Messages are the way that applications communicate with each other. Typically a message is in response to an event. A Message can be anything, from a notification that an operation has finished to data in response to a query. In the above Registration scenario, the Message might a combination, including the event that occurred (Schedule Change) as well as the data related to the event (the changed courses or the new schedule). For ease and simplicity Messages are encoded as JSON.
+Messages are the way that applications communicate with each other. Typically a Message is in response to an event. A Message can be anything, from a notification that an operation has finished to data in response to a query. In the above Registration scenario, the Message might a combination, including the event that occurred (Schedule Change) as well as the data related to the event (the changed courses or the new schedule). For ease and simplicity Messages are encoded as JSON.
 
 ```plain
 {
-  "Event":"'Schedule Change",
+  "Event":"Schedule Change",
   "Student_ID":"S202400316",
   "Dropped":["FR101","FR102"],
   "Added":["SP101","SP102"]
