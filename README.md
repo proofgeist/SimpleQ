@@ -1,6 +1,6 @@
 # SimpleQ 
 
-SimpleQ is an implementation of a Message Queue for FileMaker, which enables the Publish and Subscribe pattern in FileMaker Pro. In this pattern, different applications or different parts of the same application, communicate using asynchronous message passing. One application will "Publish" a message onto a central Message Queue, and other applications can listen for messages that they are interested, in by subscribing to the "channels" they are interested in.  
+SimpleQ is an implementation of a Message Queue for FileMaker, which enables the Publish and Subscribe pattern in FileMaker Pro. In this pattern, different applications or different parts of the same application, communicate using asynchronous message passing. One application will "Publish" a message onto a central Message Queue, and other applications can listen for messages that they are interested in, by subscribing to the "channels" they are interested in.  
 
 ## Benefits
 
@@ -12,7 +12,7 @@ Every company today has data spread out across many applications. We need standa
 
 ## De-coupling
 
-FileMaker applications are often tightly coupled. The best place to see this is on a relationship graph. In a large application, the graph becomes very hard to manage, and it begins to impact performance in a big way. What we need is ways to carve up our apps into smaller chunks that don't share any TOs, but can still share data. We can imagine, using a script to pass data around, and that is exactly what this implementation builds on.
+FileMaker applications are often tightly coupled. The best place to see this is on a relationship graph. In a large application, the graph becomes very hard to manage, and it begins to impact performance in a big way. What we need are ways to carve up our apps into smaller chunks that don't share any TOs, but can still share data. We can imagine, using a script to pass data around, and that is exactly what this implementation builds on.
 
 ## Completely Free
 
