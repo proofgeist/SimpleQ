@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import Card from "../components/card";
+import Player from "react-player";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -60,7 +61,7 @@ export default function Home() {
                     }
                     footer={
                       <Link
-                        className="button button--secondary button--md"
+                        className="button button--primary button--md"
                         to="/docs/intro"
                       >
                         Read more...
@@ -82,7 +83,7 @@ export default function Home() {
                     }
                     footer={
                       <Link
-                        className="button button--secondary button--md"
+                        className="button button--primary button--md"
                         to="/docs/getting-started-guide/intro"
                       >
                         Learn more...
@@ -105,7 +106,7 @@ export default function Home() {
                     footer={
                       <Link
                         _target="_blank"
-                        className="button button--secondary button--md"
+                        className="button button--primary button--md"
                         to="https://www.ottofms.com/docs/developer-api/receiving-web-hooks"
                       >
                         Learn about Otto
@@ -115,6 +116,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div style={{ height: "40px" }}></div>
+          <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <h2>Getting Start Guide Video</h2>
+          </div>
+          <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <Player url={"https://vimeo.com/714595854/c5b59187e5"} />
           </div>
           <div style={{ height: "40px" }}></div>
         </main>
