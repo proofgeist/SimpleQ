@@ -1,13 +1,13 @@
 ---
 id: intro
 sidebar_position: 1
-sidebar_label: Intro to SimepleQ
+sidebar_label: Intro to SimpleQ
 title: Introduction to SimpleQ
 ---
 
 ## Overview
 
-SimpleQ is a messaging service that allows applications to work together in a loosely-coupled fashion. SimpleQ uses the Publish/Subscribe design pattern to broker messages between a Publisher and a Subscriber. To understand how SimpleQ operates it's helpful to think about how many tightly-coupled applications work together. Consider the following scenario:
+SimpleQ is a messaging service that allows applications to work together in a loosely-coupled fashion. SimpleQ uses the Publish/Subscribe design pattern to broker messages between a Publisher and a Subscriber. To understand how SimpleQ operates, it's helpful to think about how tightly-coupled applications work together. Consider the following scenario:
 
 > In a Student Registration System, a student decides to Drop their French class and add a Spanish class. The Registrar makes the changes to the student's schedule in the system. Other modules may depend on the Registration system for their information, such as the Bookstore to produce a list of required texts or an Attendance system for recording class attendance, and need to be notified in the event of a schedule change.
 
@@ -19,11 +19,11 @@ There are several benefits to a loosely-coupled architecture, including increase
 
 ## Messages
 
-Messages are the way that applications communicate with each other. Typically a message is in response to an event. A Message can be anything, from a notification that an operation has finished to data in response to a query. In the above Registration scenario, the Message might a combination, including the event that occurred (Schedule Change) as well as the data related to the event (the changed courses or the new schedule). For ease and simplicity Messages are encoded as JSON.
+Messages are the way that applications communicate with each other. Typically a Message is in response to an event. A Message can be anything, from a notification that an operation has finished to data in response to a query. In the above Registration scenario, the Message might a combination, including the event that occurred (Schedule Change) as well as the data related to the event (the changed courses or the new schedule). For ease and simplicity Messages are encoded as JSON.
 
 ```plain
 {
-  "Event":"'Schedule Change",
+  "Event":"Schedule Change",
   "Student_ID":"S202400316",
   "Dropped":["FR101","FR102"],
   "Added":["SP101","SP102"]
