@@ -53,7 +53,7 @@ In addition, the Publisher will define the Channel in which it will publish a Me
 
 A Channel is a way to group Messages for Subscribers. Rather than broadcast all Messages to all Subscribers, Channels give the Subscriber a way to only receive Messages of interest. This cuts down on the amount of data being sent over the network, and frees up compute time that would otherwise have been spent processing and discarding unwanted Messages. There is no limit to the number of Channels to which a Publisher can send Messages, nor to the number of Channels that a Subscriber can follow.
 
-![](images/SimpleQ%20Channels.png)
+![](images/SimpleQChannels.png)
 
 Channels are defined as a path using dot-notation. This enables the Subscriber to follow multiple Channels from a Publisher rather than having to subscribe to each Channel individually. In the above example, a Subscriber following the channel "sis.registrar" will receive Messages for both the "sis.registrar.scheduling" channel as well as the "sis.registrar.contacts" channel.
 
@@ -61,6 +61,6 @@ Channels are defined as a path using dot-notation. This enables the Subscriber t
 
 Subscribers are the systems that listen for Messages on a Channel. The Subscriber defines a Listener function that will receive and process any Message that was received. This Listener function is provided to the SimpleQ server, which will contact the Subscriber by sending the Message to the Subscriber as a parameter to the Listener.
 
-![](images/SimpleQ%20Subscribers.png)
+![](images/SimpleQSubscribers.png)
 
 In our example above, the **Attendance** and **Bookstore** systems have been configured as Subscribers, with the Attendance system subscribed to the "sis.registrar.contacts" and "sis.registrar.scheduling" channels.
