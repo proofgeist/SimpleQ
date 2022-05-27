@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
+import Card from "../components/card";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -33,7 +34,27 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main></main>
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col col--4">
+              <div class="col-demo">
+                <Card header="SimpleQ" body="simpleQ" footer="simpleQ"></Card>
+              </div>
+            </div>
+            <div class="col col--4">
+              <div class="col-demo">
+                <Card header="SimpleQ" body="simpleQ" footer="simpleQ"></Card>
+              </div>
+            </div>
+            <div class="col col--4">
+              <div class="col-demo">
+                <Card header="SimpleQ" body="simpleQ" footer="simpleQ"></Card>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </Layout>
   );
 }

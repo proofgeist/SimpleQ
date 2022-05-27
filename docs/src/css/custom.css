@@ -36,3 +36,16 @@
 [data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/*  Article images */
+article p img {
+  box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.28);
+}
+
+/* markdown docs image style*/
+div.theme-doc-markdown.markdown img {
+  box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.28);
+}
+div.theme-doc-markdown.markdown img.no-shadow {
+  box-shadow: none;
+}
