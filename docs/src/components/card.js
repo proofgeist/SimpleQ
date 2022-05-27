@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card({ header, body, footer }) {
   return (
-    <div class="card-demo">
+    <div>
       <div class="card">
         <div class="card__header">{header}</div>
         <div class="card__body">{body}</div>

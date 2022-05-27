@@ -13,6 +13,7 @@
   --ifm-color-primary-light: #a40c79;
   --ifm-color-primary-lighter: #ab0d7e;
   --ifm-color-primary-lightest: #c20e8f;
+  --html-background-color: var(--ifm-color-gray-100);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -24,6 +25,7 @@
   --ifm-color-primary-light: #d871c5;
   --ifm-color-primary-lighter: #db7dc9;
   --ifm-color-primary-lightest: #e5a0d8;
+  --html-background-color: var(--ifm-color-gray-900);
 }
 
 .docusaurus-highlight-code-line {
@@ -48,4 +50,8 @@ div.theme-doc-markdown.markdown img {
 }
 div.theme-doc-markdown.markdown img.no-shadow {
   box-shadow: none;
+}
+
+html {
+  background-color: var(--html-background-color);
 }

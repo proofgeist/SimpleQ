@@ -72,6 +72,10 @@ const config = {
               {
                 label: "Introduction",
                 to: "/docs/intro"
+              },
+              {
+                label: "Releases",
+                to: "https://github.com/proofgeist/SimpleQ/releases"
               }
             ]
           },
