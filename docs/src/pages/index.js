@@ -122,7 +122,10 @@ export default function Home() {
             <h2>Getting Start Guide Video</h2>
           </div>
           <div style={{ display: "flex", justifyContent: "space-around" }}>
-            <Player url={"https://vimeo.com/714595854/c5b59187e5"} />
+            <Player
+              url={"https://vimeo.com/714595854/c5b59187e5"}
+              controls={true}
+            />
           </div>
           <div style={{ height: "40px" }}></div>
         </main>
