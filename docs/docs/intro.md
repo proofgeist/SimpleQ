@@ -1,7 +1,7 @@
 ---
 id: intro
 sidebar_position: 1
-sidebar_label: Intro to SimepleQ
+sidebar_label: Intro to SimpleQ
 title: Introduction to SimpleQ
 ---
 
