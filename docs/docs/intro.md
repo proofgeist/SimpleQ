@@ -1,13 +1,13 @@
 ---
 id: intro
 sidebar_position: 1
-sidebar_label: Intro to SimepleQ
+sidebar_label: Intro to SimpleQ
 title: Introduction to SimpleQ
 ---
 
 ## Overview
 
-SimpleQ is a messaging service that allows applications to work together in a loosely-coupled fashion. SimpleQ uses the Publish/Subscribe design pattern to broker messages between a Publisher and a Subscriber. To understand how SimpleQ operates it's helpful to think about how many tightly-coupled applications work together. Consider the following scenario:
+SimpleQ is a messaging service that allows applications to work together in a loosely-coupled fashion. SimpleQ uses the Publish/Subscribe design pattern to broker messages between a Publisher and a Subscriber. To understand how SimpleQ operates, it's helpful to think about how tightly-coupled applications work together. Consider the following scenario:
 
 > In a Student Registration System, a student decides to Drop their French class and add a Spanish class. The Registrar makes the changes to the student's schedule in the system. Other modules may depend on the Registration system for their information, such as the Bookstore to produce a list of required texts or an Attendance system for recording class attendance, and need to be notified in the event of a schedule change.
 
