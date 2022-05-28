@@ -19,8 +19,8 @@ The "Message" we will be sending is just a simple "greeting".
 
 1.  The greeting will be entered into a field in the SimpleQ_Publishing_Demo.fmp12 file.
 2.  Clicking a "Send Message" button will "Publish that message to a channel in SimpleQ.fmp12.
-3.  SimpleQ will then send the message to our Simple_QSubscriber_Demo.fmp12
-4.  where a script will write that value into a field
+3.  SimpleQ will then send the message to the SimpleQ_Subscriber_Demo.fmp12
+4.  A script will set that value into a field.
 
 ![](images/CleanShot%202022-05-26%20at%2009.21.33.png)
 
