@@ -25,7 +25,7 @@ Notice that the script is collecting the value of a Greeting field and packaging
 
 Also notice that the Perform Script step on line 24 is commented out, and there isn't a script selected.![](images/CleanShot%202022-05-24%20at%2014.02.11.png)
 
-Uncomment that script step, and connect it to the script "publish message (channel, payload, runAfterTS )" in your SimpleQ file. After you are done, it should lookl like this.
+Uncomment that script step, and connect it to the script "publish message (channel, payload, runAfterTS )" in your SimpleQ file. You may need to add SimpleQ as an External Data source to the SimpleQ_Publisher_Demo file if it hasn't been added already. After you are done, it should look like this.
 
 ![](images/CleanShot%202022-05-24%20at%2014.37.53.png)
 
@@ -53,7 +53,7 @@ If you set up your Server side script as we discussed in the "Installation secti
 
 If the message was delivered successfully, Open op the SimpleQ_Subscriber_Demo.fmp12 file and look at the Greeting field. It should contain whatever you put in the greeting field in the SimpleQ_Publisher_Demo.fmp12 file.
 
-Congrats you have successfully set up and used SimpleQ
+Congratulations! You have successfully set up and used SimpleQ.
 
 ## What if it didn't work
 
