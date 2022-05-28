@@ -16,7 +16,7 @@ If you are following along with this guide, you are on the channel record you ju
 
 In the third column, there is a portal for Subscriptions. Click the "Add" button on the right edge.![](images/CleanShot%202022-05-24%20at%2013.42.43.png)
 
-The Subscriber selection window will pop up. It looks something like this. Choose the new Subscriber we created earlier. #1. Click on the 'handle-new-greeting" subscriber.
+The Subscriber selection window will appear. Choose the new Subscriber we created earlier, that is, the 'handle-new-greeting" subscriber.
 
 ![](images/CleanShot%202022-05-26%20at%2008.58.03.png)
 
