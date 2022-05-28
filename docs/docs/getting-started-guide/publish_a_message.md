@@ -45,11 +45,11 @@ After you click the Publish button, the results field should look like this.
 
 Note the format. This is the same format is the FileMaker Data API uses to return its results. a "0" in the "code" value says that the message was received. You do not get the results of the subscriber script, because that script won't run for up to a minute.
 
-## Wait for the queue to flush.
+## Wait for the queue to flush
 
 If you set up your Server side script as we discussed in the "Installation section", then the message that you just published will get processed in a minute. Navigate to the Queue view in SimpleQ you should see your message waiting to be delivered. It looks like this.
 
-## Confirm that the message was processed.
+## Confirm that the message was processed
 
 If the message was delivered successfully, Open op the SimpleQ_Subscriber_Demo.fmp12 file and look at the Greeting field. It should contain whatever you put in the greeting field in the SimpleQ_Publisher_Demo.fmp12 file.
 

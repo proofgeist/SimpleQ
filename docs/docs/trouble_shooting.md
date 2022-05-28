@@ -1,10 +1,10 @@
 ---
 sidebar_position: 4
-sidebar_label: Trouble shooting
-title: Trouble shooting
+sidebar_label: Troubleshooting
+title: Troubleshooting
 ---
 
-Failed Permenently
+### Failed Permanently
 
 Code 100
 
@@ -13,7 +13,7 @@ Code 100
   "messages": [
     {
       "code": 100,
-      "message": " Error perfomring script \"\" in script \"deliver staticDSN message ( message ; listener )\" at #deliver message via script call"
+      "message": " Error performing script \"\" in script \"deliver staticDSN message ( message ; listener )\" at #deliver message via script call"
     }
   ]
 }
