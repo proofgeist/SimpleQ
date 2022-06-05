@@ -42,8 +42,8 @@ The Publisher doesn't know who the Subscribers are or even if there are any Subs
 {
   "Event":"A JSON string indicating the type of event, e.g. 'Schedule Change'",
   "Student_ID":"A JSON string containing the external identifier for the Student.",
-  "Dropped":"A JSON array containing the identifier for each class that was Dropped",
-  "Added":"A JSON array containing the identifier for each class that was dded"
+  "Dropped":"A JSON array containing the identifier for each class that was dropped",
+  "Added":"A JSON array containing the identifier for each class that was added"
 }
 ```
 
