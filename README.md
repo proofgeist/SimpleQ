@@ -20,8 +20,8 @@ SimpleQ is free, and unlocked. You can use it any way you want. You will see ref
 
 ## Release Info
 
-Version: 1.1.0
-Date: 1/23/2022
+Version: 1.2.2
+Date: 6/22/2022
 
 ## Admin Credentials 
 
