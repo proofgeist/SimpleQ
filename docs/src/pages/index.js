@@ -27,7 +27,7 @@ function HomepageHeader() {
             className="button button--secondary button--md"
             to="https://github.com/proofgeist/SimpleQ/archive/refs/tags/v1.2.0.zip"
           >
-            Download Version 1.2
+            Download Version 1.2.2
           </Link>
         </div>
       </div>
