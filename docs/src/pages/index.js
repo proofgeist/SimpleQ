@@ -25,9 +25,9 @@ function HomepageHeader() {
         <div style={{ marginTop: "12px" }} className={styles.buttons}>
           <Link
             className="button button--secondary button--md"
-            to="https://github.com/proofgeist/SimpleQ/archive/refs/tags/v1.2.0.zip"
+            to="https://github.com/proofgeist/SimpleQ/releases"
           >
-            Download Version 1.2.2
+            Download Latest Release
           </Link>
         </div>
       </div>
