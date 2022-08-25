@@ -1,6 +1,6 @@
-# SimpleQ 
+# SimpleQ
 
-SimpleQ is an implementation of a Message Queue for FileMaker, which enables the Publish and Subscribe pattern in FileMaker Pro. In this pattern, different applications or different parts of the same application, communicate using asynchronous message passing. One application will "Publish" a message onto a central Message Queue, and other applications can listen for messages that they are interested in, by subscribing to the "channels" they are interested in.  
+SimpleQ is an implementation of a Message Queue for FileMaker, which enables the Publish and Subscribe pattern in FileMaker Pro. In this pattern, different applications or different parts of the same application, communicate using asynchronous message passing. One application will "Publish" a message onto a central Message Queue, and other applications can listen for messages that they are interested in, by subscribing to the "channels" they are interested in.
 
 ## Benefits
 
@@ -20,10 +20,10 @@ SimpleQ is free, and unlocked. You can use it any way you want. You will see ref
 
 ## Release Info
 
-Version: 1.2.2
-Date: 6/22/2022
+Version: 1.3.0
+Date: 8/25/2022
 
-## Admin Credentials 
+## Admin Credentials
 
 You should change this password immediately!
 
